@@ -2,7 +2,7 @@
 //  Movie.swift
 //  MoviesApi
 //
-//  Created by BTK on 7.12.2022.
+//  Created by OMER on 7.12.2022.
 //
 
 import Foundation
