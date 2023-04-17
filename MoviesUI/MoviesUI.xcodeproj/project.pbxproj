@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4B31AE892942076F00E3156A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4B31AE882942076F00E3156A /* Lottie */; };
 		4B31AE8B2942097300E3156A /* loadingCircle.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B31AE8A2942097300E3156A /* loadingCircle.json */; };
+		4B6706DA294A13F2008EEF4A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6706D9294A13F2008EEF4A /* Helpers.swift */; };
+		4B6706DC294A1602008EEF4A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6706DB294A1602008EEF4A /* UIViewController+Extension.swift */; };
 		4B691A0F2940796500A3ED44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B691A0E2940796500A3ED44 /* AppDelegate.swift */; };
 		4B691A132940796500A3ED44 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B691A122940796500A3ED44 /* MainViewController.swift */; };
 		4B691A162940796500A3ED44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B691A142940796500A3ED44 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 		4B7593242947624D00912E40 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 4B7593232947624D00912E40 /* FirebaseRemoteConfig */; };
 		4B9350AD2941C12100980EF3 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4B9350AC2941C12100980EF3 /* SDWebImage */; };
 		4B9350AF2941C13F00980EF3 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9350AE2941C13F00980EF3 /* UIImageView+Extension.swift */; };
+		4BB052622964138900B87708 /* MeroService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BB052612964138900B87708 /* MeroService-Info.plist */; };
+		4BE1601C294F16870034E78A /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE1601B294F16870034E78A /* Tests.swift */; };
 		4BFA62862941C4EA003D3306 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA62852941C4EA003D3306 /* MovieTableViewCell.swift */; };
 		4BFA62882941C5F0003D3306 /* MainContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA62872941C5F0003D3306 /* MainContract.swift */; };
 		4BFA628B2941C689003D3306 /* MoviePresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA628A2941C689003D3306 /* MoviePresentation.swift */; };
@@ -77,6 +81,8 @@
 
 /* Begin PBXFileReference section */
 		4B31AE8A2942097300E3156A /* loadingCircle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loadingCircle.json; sourceTree = "<group>"; };
+		4B6706D9294A13F2008EEF4A /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		4B6706DB294A1602008EEF4A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		4B691A0B2940796500A3ED44 /* MoviesUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B691A0E2940796500A3ED44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B691A122940796500A3ED44 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +103,8 @@
 		4B75931829466F2300912E40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4B75931C294743F700912E40 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		4B9350AE2941C13F00980EF3 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		4BB052612964138900B87708 /* MeroService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeroService-Info.plist"; sourceTree = "<group>"; };
+		4BE1601B294F16870034E78A /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		4BFA62852941C4EA003D3306 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		4BFA62872941C5F0003D3306 /* MainContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContract.swift; sourceTree = "<group>"; };
 		4BFA628A2941C689003D3306 /* MoviePresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePresentation.swift; sourceTree = "<group>"; };
@@ -228,6 +236,7 @@
 				4B75931C294743F700912E40 /* SplashViewController.swift */,
 				4B691A1C2940796600A3ED44 /* Info.plist */,
 				4B75931829466F2300912E40 /* GoogleService-Info.plist */,
+				4BB052612964138900B87708 /* MeroService-Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -245,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				4B9350AE2941C13F00980EF3 /* UIImageView+Extension.swift */,
+				4B6706DB294A1602008EEF4A /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -252,6 +262,7 @@
 		4B691A7C2940AD4000A3ED44 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				4B6706D9294A13F2008EEF4A /* Helpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -267,6 +278,7 @@
 				4BFA62922941C822003D3306 /* MainPresenter.swift */,
 				4BFA62872941C5F0003D3306 /* MainContract.swift */,
 				4BFA628C2941C6D5003D3306 /* MainRouter.swift */,
+				4BE1601B294F16870034E78A /* Tests.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -418,6 +430,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB052622964138900B87708 /* MeroService-Info.plist in Resources */,
 				4B691A1B2940796600A3ED44 /* LaunchScreen.storyboard in Resources */,
 				4B691A182940796600A3ED44 /* Assets.xcassets in Resources */,
 				4B691A162940796500A3ED44 /* Main.storyboard in Resources */,
@@ -451,6 +464,7 @@
 				4BFA62992941D36C003D3306 /* DetailContract.swift in Sources */,
 				4BFA628F2941C7AD003D3306 /* DetailBuilder.swift in Sources */,
 				4BFA629B2941D3A2003D3306 /* DetailPresentation.swift in Sources */,
+				4B6706DA294A13F2008EEF4A /* Helpers.swift in Sources */,
 				4BFA628B2941C689003D3306 /* MoviePresentation.swift in Sources */,
 				4BFA62882941C5F0003D3306 /* MainContract.swift in Sources */,
 				4B691A832940CB2200A3ED44 /* AppRouter.swift in Sources */,
@@ -462,9 +476,11 @@
 				4B9350AF2941C13F00980EF3 /* UIImageView+Extension.swift in Sources */,
 				4B691A0F2940796500A3ED44 /* AppDelegate.swift in Sources */,
 				4B691A802940CAC900A3ED44 /* MainBuilder.swift in Sources */,
+				4BE1601C294F16870034E78A /* Tests.swift in Sources */,
 				4B75931D294743F700912E40 /* SplashViewController.swift in Sources */,
 				4BFA62912941C819003D3306 /* MainInteractor.swift in Sources */,
 				4BFA62972941D349003D3306 /* DetailViewController.swift in Sources */,
+				4B6706DC294A1602008EEF4A /* UIViewController+Extension.swift in Sources */,
 				4B75930E2945FE0600912E40 /* EmptyDataTableViewCell.swift in Sources */,
 				4BFA629D2941D55F003D3306 /* DetailPresenter.swift in Sources */,
 			);
@@ -643,7 +659,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QVP779A4Y7;
+				DEVELOPMENT_TEAM = 896X4538S5;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MoviesUI/Supporting Files/Info.plist";
@@ -673,7 +689,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QVP779A4Y7;
+				DEVELOPMENT_TEAM = 896X4538S5;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MoviesUI/Supporting Files/Info.plist";

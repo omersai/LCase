@@ -2,13 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
-	<dict>
-		<key>MoviesUI.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-	</dict>
+	<key>BASE_URL</key>
+	<string>https://api.themoviedb.org/3/search/movie</string>
+	<key>API_KEY</key>
+	<string>60b87c964abe45c9b6a0f56dc5df2e3f</string>
 </dict>
 </plist>

@@ -27,8 +27,8 @@ final class MainInteractor: MainInteractorProtocol{
             case .success(let value):
                 self.movies = value.results
                 self.delegate?.handleOutput(.showMovie(self.movies))
-            case .failure(_):
-                print("")
+            case .failure(let error):
+                print("errors ", error.localizedDescription)
             }
         }
     }

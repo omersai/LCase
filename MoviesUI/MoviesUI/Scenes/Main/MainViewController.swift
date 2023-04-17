@@ -22,6 +22,9 @@ final class MainViewController: UIViewController {
         animationSetupUI()
     }
     
+    
+
+    
     @IBAction func searchChange(_ sender: UITextField) {
         let searchValue = sender.text
         if let searchValue = searchValue{
